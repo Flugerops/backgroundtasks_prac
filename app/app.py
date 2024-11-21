@@ -23,17 +23,17 @@ async def file_analyse(
     chunk_size = total_length // 10
     processed_length = 0
 
-    with open(f"{finished_file_path}/{file_id}_{filename}", "wb") as file:
+    with open(f"{finished_file_path}/{file_id}_{filename}", "ab") as file:
         for i in range(0, total_length, chunk_size):
             chunk = filecontent[i : i + chunk_size]
             if "banned_word".encode() in chunk:
-                file.write("banned")
+                file.write("banned".encode())
             else:
                 file.write(chunk.upper())
             processed_length += len(chunk)
             progress = (processed_length / total_length) * 100
             print(f"File id: {file_id}, progress: {progress}")
-            await asyncio.sleep(10)
+            await asyncio.sleep(1)
 
 
 @app.post("/upload", status_code=status.HTTP_202_ACCEPTED)
