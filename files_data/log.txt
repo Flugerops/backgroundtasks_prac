@@ -1,0 +1,353 @@
+[2024.11.21 18:53:55] launched version: 5006003, install beta: [false], alpha: 0, debug mode: [false]
+[2024.11.21 18:53:55] executable dir: c:/users/bogda/downloads/, name: ayugram.exe
+[2024.11.21 18:53:55] initial working dir: c:/users/bogda/downloads/
+[2024.11.21 18:53:55] working dir: c:/users/bogda/downloads/
+[2024.11.21 18:53:55] command line: c:\users\bogda\downloads\ayugram.exe
+[2024.11.21 18:53:55] executable path before check: c:/users/bogda/downloads/ayugram.exe
+[2024.11.21 18:53:55] logs started
+[2024.11.21 18:53:55] appusermodelid: telegram.telegramdesktop.e3a57f31e6bfebb4f87a68c32c9ffacf
+[2024.11.21 18:53:55] using directx compiler 'c:\windows\system32\d3dcompiler_47.dll'.
+[2024.11.21 18:53:55] connecting local socket to global\e1d3a164b5b6e1fc764cc020bdfbf5ff-{87a94ab0-e370-4cde-98d3-acc110c59666}...
+[2024.11.21 18:53:55] this is the only instance of telegram, starting server and app...
+[2024.11.21 18:53:55] moved logging from 'c:/users/bogda/downloads/log_start0.txt' to 'c:/users/bogda/downloads/log.txt'!
+[2024.11.21 18:53:55] opened 'c:/users/bogda/downloads/tdata/working' for reading, the previous ayugram desktop launch was not finished properly :( crash log size: 0
+[2024.11.21 18:53:55] global devicepixelratio: 1
+[2024.11.21 18:53:55] qt_dpi_adjustment_policy: adjustdpi
+[2024.11.21 18:53:55] primary screen dpi: 120, base: 96.
+[2024.11.21 18:53:55] computed screen scale: 125
+[2024.11.21 18:53:55] devicepixelratio: 1
+[2024.11.21 18:53:55] screenscale: 125
+[2024.11.21 18:53:55] media info: type playback, default: {0.0.0.00000000}.{c7d766ed-042f-44b4-a765-4abf13dd4929}, list: { "internal aux jack (intel® smart sound technology for digital microphones)" <{0.0.0.00000000}.{0c627626-8057-4cfc-b862-78a185bc5f0b}>, "internal aux jack (high definition audio device)" <{0.0.0.00000000}.{13d76492-4aa8-4447-8a61-08cee004cb45}>, "internal aux jack (intel® smart sound technology for digital microphones)" <{0.0.0.00000000}.{285fc3b8-c3a0-4595-887d-af4c18e3eb15}>, "headphones (high definition audio device)" <{0.0.0.00000000}.{338053ba-69f8-40c1-9d3d-fb9887638ea6}>, "speakers (high definition audio device)" <{0.0.0.00000000}.{555c1ace-31a1-4b78-832a-26c8fc871e35}>, "internal aux jack (intel® smart sound technology for digital microphones)" <{0.0.0.00000000}.{5fc29b19-91e2-4a4b-92eb-e4d7afd4d078}>, "headphones (realtek(r) audio)" <{0.0.0.00000000}.{c7d766ed-042f-44b4-a765-4abf13dd4929}>, "internal aux jack (intel® smart sound technology for digital microphones)" <{0.0.0.00000000}.{cab1d919-2de2-42a7-b800-cbbc762c1ae0}>, "speakers (realtek(r) audio)" <{0.0.0.00000000}.{e125c734-8819-4705-bc2a-de4430b99294}> }, full list refresh: false
+[2024.11.21 18:53:55] media info: type capture, default: {0.0.1.00000000}.{cb3bb368-3d62-44d1-aeb9-9dfcb4c98bda}, list: { "microphone (high definition audio device)" <{0.0.1.00000000}.{2cf14a60-3b30-4718-aabb-873a3dcebd8b}>, "microphone array (intel® smart sound technology for digital microphones)" <{0.0.1.00000000}.{958fb861-4457-42eb-b5ed-cd259da79b99}>, "stereo mix (realtek(r) audio)" <{0.0.1.00000000}.{b8789f8f-6cd9-4543-ba40-99fc15de52a5}>, "Зовнішній мікрофон (realtek(r) audio)" <{0.0.1.00000000}.{cb3bb368-3d62-44d1-aeb9-9dfcb4c98bda}>, "microphone (logi c270 hd webcam)" <{0.0.1.00000000}.{cd7adf74-679c-428d-a158-22286be3a802}> }, full list refresh: false
+[2024.11.21 18:53:55] media info: type camera, default: \\?\usb#vid_174f&pid_2459&mi_00#6&6c047c5&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, list: { "integrated camera" <\\?\usb#vid_174f&pid_2459&mi_00#6&6c047c5&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global>, "intel virtual camera" <intel virtual camera> }, full list refresh: true
+[2024.11.21 18:53:55] app info: reading settings...
+[2024.11.21 18:53:55] app info: reading encrypted settings...
+[2024.11.21 18:53:55] lang info: loaded cached, keys: 7658
+[2024.11.21 18:53:55] font: from ':/gui/fonts/opensans-regular.ttf' loaded 'open sans'
+[2024.11.21 18:53:55] font: from ':/gui/fonts/opensans-italic.ttf' loaded 'open sans'
+[2024.11.21 18:53:55] font: from ':/gui/fonts/opensans-semibold.ttf' loaded 'open sans semibold'
+[2024.11.21 18:53:55] font: from ':/gui/fonts/opensans-semibolditalic.ttf' loaded 'open sans semibold'
+[2024.11.21 18:53:55] font: from ':/gui/fonts/vazirmatn-ui-nl-regular.ttf' loaded 'vazirmatn ui nl'
+[2024.11.21 18:53:55] font: from ':/gui/fonts/vazirmatn-ui-nl-semibold.ttf' loaded 'vazirmatn ui nl semibold'
+[2024.11.21 18:53:56] openal logging level: (not set)
+[2024.11.21 18:53:56] app info: reading accounts info...
+[2024.11.21 18:53:56] app info: reading encrypted info...
+[2024.11.21 18:53:56] app info: reading map...
+[2024.11.21 18:53:56] app info: reading encrypted map...
+[2024.11.21 18:53:56] app info: reading encrypted user settings...
+[2024.11.21 18:53:56] app info: encrypted user settings read.
+[2024.11.21 18:53:56] app info: reading encrypted mtp data...
+[2024.11.21 18:53:56] mtp info: read keys, current: 4, to destroy: 0
+[2024.11.21 18:53:56] map read time: 24
+[2024.11.21 18:53:56] app info: reading encrypted mtp config...
+[2024.11.21 18:53:57] export info: destroy top bar by controller removal.
+[2024.11.21 18:53:57] opengl: using custom 'gpu_driver_bug_list.json'.
+[2024.11.21 18:53:57] opengl profile: opengles.
+[2024.11.21 18:53:57] opengl renderer: angle (intel, intel(r) iris(r) xe graphics direct3d11 vs_5_0 ps_5_0, d3d11-30.0.101.1692)
+[2024.11.21 18:53:57] opengl vendor: google inc. (intel)
+[2024.11.21 18:53:57] opengl version: opengl es 3.0.0 (angle 2.1.10 git hash: e3f59e8d0c3e)
+[2024.11.21 18:53:57] opengl extensions: gl_ovr_multiview, gl_oes_egl_image, gl_angle_memory_size, gl_chromium_bind_uniform_location, gl_ext_srgb, gl_oes_shader_multisample_interpolation, gl_ext_texture_norm16, gl_angle_copy_texture_3d, gl_chromium_copy_texture, gl_khr_parallel_shader_compile, gl_angle_base_vertex_base_instance_shader_builtin, gl_angle_texture_compression_dxt5, gl_oes_compressed_etc2_srgb8_alpha8_texture, gl_ext_texture_mirror_clamp_to_edge, gl_ext_egl_image_external_wrap_modes, gl_nv_egl_stream_consumer_external, gl_ext_read_format_bgra, gl_angle_provoking_vertex, gl_angle_renderability_validation, , gl_ext_map_buffer_range, gl_ext_depth_clamp, gl_ext_render_snorm, gl_oes_texture_float_linear, gl_angle_get_tex_level_parameter, gl_angle_depth_texture, gl_angle_framebuffer_blit, gl_angle_instanced_arrays, gl_ext_blend_func_extended, gl_oes_compressed_etc2_srgb8_texture, gl_ext_draw_elements_base_vertex, gl_oes_sample_variables, gl_oes_vertex_array_object, gl_ext_draw_buffers_indexed, gl_ext_texture_type_2_10_10_10_rev, gl_oes_surfaceless_context, gl_ext_unpack_subimage, gl_oes_draw_elements_base_vertex, gl_oes_compressed_etc2_punchthrougha_srgb8_alpha_texture, gl_angle_client_arrays, gl_angle_robust_client_memory, gl_nv_pixel_buffer_object, gl_angle_program_cAche_control, gl_ext_texture_compression_bptc, gl_nv_framebuffer_blit, gl_ext_texture_compression_rgtc, gl_chromium_sync_query, gl_ext_debug_marker, gl_angle_polygon_mode, gl_nv_pack_subimage, gl_oes_standard_derivatives, gl_angle_pack_reverse_row_order, gl_oes_compressed_eac_r11_unsigned_texture, gl_ext_polygon_offset_clamp, gl_oes_compressed_eac_rg11_signed_texture, gl_ext_occlusion_query_boolean, gl_angle_multi_draw, gl_ext_conservative_depth, gl_ext_multi_draw_indirect, gl_oes_draw_buffers_indexed, gl_oes_texture_npot, gl_webgl_video_texture, gl_ext_texture_filter_anisotropic, gl_ext_texture_format_bgra8888, gl_ext_texture_rg, gl_angle_stencil_texturing, gl_ext_clip_cull_distance, gl_ext_float_blend, gl_angle_texture_compression_dxt3, gl_ext_blend_minmax, gl_chromium_lose_context, gl_oes_packed_depth_stencil, gl_ext_draw_buffers, gl_ext_instanced_arrays, gl_ext_shader_texture_lod, gl_khr_debug, gl_oes_get_program_binary, gl_ext_multisampled_render_to_texture, gl_angle_shader_pixel_local_storage_coherent, gl_ext_clip_control, gl_ext_texture_compression_s3tc_srgb, gl_oes_egl_image_external_essl3, gl_oes_texture_half_float_linear, gl_ovr_multiview2, gl_apple_clip_distance, gl_oes_compressed_eac_rg11_unsigned_texture, gl_angle_framebuffer_multisample, gl_amd_performance_monitor, gl_angle_shader_pixel_local_storage, gl_ext_base_instance, gl_ext_robustness, gl_oes_rgb8_rgba8, gl_ext_texture_border_clamp, gl_oes_depth32, gl_oes_element_index_uint, gl_oes_compressed_eac_r11_signed_texture, gl_angle_clip_cull_distance, gl_angle_texture_usage, gl_nv_fence, gl_oes_texture_border_clamp, gl_angle_get_serialized_context_string, gl_angle_request_extension, gl_chromium_bind_generates_resource, gl_ext_discard_framebuffer, gl_ext_debug_label, gl_ext_texture_compression_dxt1, gl_oes_fbo_render_mipmap, gl_nv_shader_noperspective_interpolation, gl_ext_texture_storage, gl_angle_translated_shader_source, gl_chromium_copy_compressed_texture, gl_ext_color_buffer_half_float, gl_oes_egl_image_external, gl_oes_mapbuffer, gl_angle_multiview_multisample, gl_ext_disjoint_timer_query, gl_angle_texture_multisample, gl_ext_color_buffer_float, gl_oes_compressed_etc2_rgb8_texture, gl_angle_lossy_etc_decode, gl_oes_compressed_etc2_rgba8_texture, gl_oes_compressed_etc2_punchthrougha_rgba8_texture, gl_oes_texture_float, gl_ext_frag_depth, gl_oes_texture_half_float, gl_oes_depth24, gl_oes_texture_stencil8, gl_angle_base_vertex_base_instance
+[2024.11.21 18:53:57] egl extensions: egl_ext_create_context_robustness, egl_angle_d3d_share_handle_client_buffer, egl_angle_d3d_texture_client_buffer, egl_angle_surface_d3d_texture_2d_share_handle, egl_angle_query_surface_pointer, egl_angle_window_fixed_size, egl_angle_keyed_mutex, egl_angle_surface_orientation, egl_angle_direct_composition, egl_angle_windows_ui_composition, egl_nv_post_sub_buffer, egl_khr_create_context, egl_khr_image, egl_khr_image_base, egl_khr_gl_texture_2d_image, egl_khr_gl_texture_cubemap_image, egl_khr_gl_renderbuffer_image, egl_khr_get_all_proc_addresses, egl_khr_stream, egl_khr_stream_consumer_gltexture, egl_nv_stream_consumer_gltexture_yuv, egl_angle_stream_producer_d3d_texture, egl_angle_create_context_webgl_compatibility, egl_chromium_create_context_bind_generates_resource, egl_chromium_sync_control, egl_ext_pixel_format_float, egl_khr_surfaceless_context, egl_angle_display_texture_share_group, egl_angle_display_semaphore_share_group, egl_angle_create_context_client_arraYs, egl_angle_program_cache_control, egl_angle_robust_resource_initialization, egl_angle_create_context_extensions_enabled, egl_android_blob_cache, egl_android_recordable, egl_angle_image_d3d11_texture, egl_angle_create_context_backwards_compatible, egl_khr_no_config_context, egl_khr_create_context_no_error, egl_khr_reusable_sync, 
+[2024.11.21 18:53:57] opengl: qopenglcontext created, version: 3.3.
+[2024.11.21 18:53:57] opengl: [true] (window)
+[2024.11.21 18:53:59] api warning: not loaded minimal channel applied.
+[2024.11.21 18:53:59] api warning: not loaded minimal channel applied.
+[2024.11.21 18:54:01] rpc error: request 115 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:54:01] rpc error: request 128 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:54:02] rpc error: request 153 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:54:32] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:54:34] audio info: closing audio playback device.
+[2024.11.21 18:55:31] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:55:33] audio info: closing audio playback device.
+[2024.11.21 18:56:26] rpc error: request 490 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:57:21] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:57:24] audio info: closing audio playback device.
+[2024.11.21 18:57:32] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:57:34] audio info: closing audio playback device.
+[2024.11.21 18:57:34] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:57:36] audio info: closing audio playback device.
+[2024.11.21 18:57:38] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:57:40] audio info: closing audio playback device.
+[2024.11.21 18:57:41] rpc error: request 502 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:57:41] api warning: not loaded minimal channel applied.
+[2024.11.21 18:57:41] api warning: not loaded minimal channel applied.
+[2024.11.21 18:57:49] rpc error: request 577 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:57:49] rpc error: request 588 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:58:03] rpc error: request 606 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:58:03] rpc error: request 616 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:58:58] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:59:01] audio info: closing audio playback device.
+[2024.11.21 18:59:04] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:59:06] audio info: closing audio playback device.
+[2024.11.21 18:59:07] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:59:10] audio info: closing audio playback device.
+[2024.11.21 18:59:10] rpc error: request 667 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:59:17] app info: writing encrypted user settings...
+[2024.11.21 18:59:19] app info: writing encrypted user settings...
+[2024.11.21 18:59:31] skipping message, because it is already in blocks!
+[2024.11.21 18:59:31] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:59:33] skipping message, because it is already in blocks!
+[2024.11.21 18:59:34] audio info: closing audio playback device.
+[2024.11.21 18:59:34] skipping message, because it is already in blocks!
+[2024.11.21 18:59:35] rpc error: request 700 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:59:42] rpc error: request 714 got fail with code 400, error peer_id_invalid
+[2024.11.21 18:59:50] skipping message, because it is already in blocks!
+[2024.11.21 18:59:52] skipping message, because it is already in blocks!
+[2024.11.21 18:59:53] skipping message, because it is already in blocks!
+[2024.11.21 18:59:53] skipping message, because it is already in blocks!
+[2024.11.21 18:59:57] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 18:59:59] audio info: closing audio playback device.
+[2024.11.21 19:00:04] skipping message, because it is already in blocks!
+[2024.11.21 19:00:13] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:00:15] audio info: closing audio playback device.
+[2024.11.21 19:00:17] skipping message, because it is already in blocks!
+[2024.11.21 19:00:21] app info: writing encrypted user settings...
+[2024.11.21 19:00:24] skipping message, because it is already in blocks!
+[2024.11.21 19:00:28] app info: writing encrypted user settings...
+[2024.11.21 19:00:40] rpc error: request 815 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:00:40] rpc error: request 834 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:01:03] rpc error: request 851 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:01:18] rpc error: request 880 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:01:18] rpc error: request 885 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:01:51] skipping message, because it is already in blocks!
+[2024.11.21 19:01:52] skipping message, because it is already in blocks!
+[2024.11.21 19:02:27] rpc error: request 910 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:02:34] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:02:36] audio info: closing audio playback device.
+[2024.11.21 19:02:38] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:02:40] audio info: closing audio playback device.
+[2024.11.21 19:03:42] rpc error: request 922 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:03:48] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:03:50] audio info: closing audio playback device.
+[2024.11.21 19:03:58] rpc error: request 933 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:04:16] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:04:18] audio info: closing audio playback device.
+[2024.11.21 19:04:19] skipping message, because it is already in blocks!
+[2024.11.21 19:04:31] rpc error: request 967 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:05:05] rpc error: request 973 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:05:14] api warning: not loaded minimal channel applied.
+[2024.11.21 19:05:18] api warning: not loaded minimal channel applied.
+[2024.11.21 19:05:23] api warning: not loaded minimal channel applied.
+[2024.11.21 19:05:23] rpc error: request 1013 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:05:31] skipping message, because it is already in blocks!
+[2024.11.21 19:05:36] skipping message, because it is already in blocks!
+[2024.11.21 19:05:49] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:05:51] audio info: closing audio playback device.
+[2024.11.21 19:05:58] rpc error: request 1033 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:06:09] rpc error: request 1054 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:06:10] api warning: not loaded minimal channel applied.
+[2024.11.21 19:06:10] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:06:12] rpc error: request 1060 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:06:12] streaming error: error in avformat_open_input (code: -542398533, text: generic error in an external library).
+[2024.11.21 19:06:12] audio info: closing audio playback device.
+[2024.11.21 19:07:12] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:07:14] audio info: closing audio playback device.
+[2024.11.21 19:07:19] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:07:21] audio info: closing audio playback device.
+[2024.11.21 19:07:48] skipping message, because it is already in blocks!
+[2024.11.21 19:08:30] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:08:32] audio info: closing audio playback device.
+[2024.11.21 19:09:08] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:09:11] audio info: closing audio playback device.
+[2024.11.21 19:09:14] rpc error: request 1120 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:09:14] rpc error: request 1123 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:10:11] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:10:13] audio info: closing audio playback device.
+[2024.11.21 19:10:24] skipping message, because it is already in blocks!
+[2024.11.21 19:10:26] skipping message, because it is already in blocks!
+[2024.11.21 19:10:39] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:10:43] audio info: closing audio playback device.
+[2024.11.21 19:10:43] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:10:45] audio info: closing audio playback device.
+[2024.11.21 19:10:48] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:10:50] audio info: closing audio playback device.
+[2024.11.21 19:11:00] skipping message, because it is already in blocks!
+[2024.11.21 19:11:01] skipping message, because it is already in blocks!
+[2024.11.21 19:11:04] skipping message, because it is already in blocks!
+[2024.11.21 19:11:04] skipping message, because it is already in blocks!
+[2024.11.21 19:11:05] skipping message, because it is already in blocks!
+[2024.11.21 19:11:07] skipping message, because it is already in blocks!
+[2024.11.21 19:11:23] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:11:25] audio info: closing audio playback device.
+[2024.11.21 19:11:26] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:11:28] audio info: closing audio playback device.
+[2024.11.21 19:11:58] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:12:00] audio info: closing audio playback device.
+[2024.11.21 19:12:02] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:12:04] audio info: closing audio playback device.
+[2024.11.21 19:12:08] audio info: recreating Audio device and reattaching the tracks
+[2024.11.21 19:12:10] audio info: closing audio playback device.
+[2024.11.21 19:12:49] rpc error: request 1167 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:12:50] skipping message, because it is already in blocks!
+[2024.11.21 19:12:54] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:12:56] audio info: closing audio playback device.
+[2024.11.21 19:12:57] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:13:00] audio info: closing audio playback device.
+[2024.11.21 19:13:01] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:13:03] audio info: closing audio playback device.
+[2024.11.21 19:13:20] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:13:24] audio info: closing audio playback device.
+[2024.11.21 19:13:40] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:13:41] rpc error: request 1176 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:13:42] audio info: closing audio playback device.
+[2024.11.21 19:13:45] skipping message, because it is already in blocks!
+[2024.11.21 19:13:45] skipping message, because it is already in blocks!
+[2024.11.21 19:13:47] skipping message, because it is already in blocks!
+[2024.11.21 19:13:47] skipping message, because it is already in blocks!
+[2024.11.21 19:13:48] skipping message, because it is already in blocks!
+[2024.11.21 19:13:49] skipping message, because it is already in blocks!
+[2024.11.21 19:13:50] skipping message, because it is already in blocks!
+[2024.11.21 19:14:23] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:14:25] audio info: closing audio playback device.
+[2024.11.21 19:15:09] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:15:11] audio info: closing audio playback device.
+[2024.11.21 19:15:20] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:15:22] audio info: closing audio playback device.
+[2024.11.21 19:15:31] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:15:33] audio info: closing audio playback device.
+[2024.11.21 19:15:33] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:15:35] audio info: closing audio playback device.
+[2024.11.21 19:16:38] api warning: not loaded minimal channel applied.
+[2024.11.21 19:17:43] api warning: not loaded minimal channel applied.
+[2024.11.21 19:17:43] api warning: not loaded minimal channel applied.
+[2024.11.21 19:17:43] api warning: not loaded minimal channel applied.
+[2024.11.21 19:17:43] api warning: not loaded minimal channel applied.
+[2024.11.21 19:17:43] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:17:45] audio info: closing audio playback device.
+[2024.11.21 19:18:03] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:18:05] audio info: closing audio playback device.
+[2024.11.21 19:18:24] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:18:26] audio info: closing audio playback device.
+[2024.11.21 19:18:36] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:18:38] audio info: closing audio playback device.
+[2024.11.21 19:19:12] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:19:14] audio info: closing audio playback device.
+[2024.11.21 19:20:23] api warning: not loaded minimal channel applied.
+[2024.11.21 19:21:41] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:21:43] audio info: closing audio playback device.
+[2024.11.21 19:21:45] api warning: not loaded minimal channel applied.
+[2024.11.21 19:23:24] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:23:27] audio info: closing audio playback device.
+[2024.11.21 19:23:32] rpc error: request 1314 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:23:40] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:23:42] audio info: closing audio playback device.
+[2024.11.21 19:24:25] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:24:27] audio info: closing audio playback device.
+[2024.11.21 19:24:38] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:24:40] audio info: closing audio playback device.
+[2024.11.21 19:30:14] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:30:16] audio info: closing audio playback device.
+[2024.11.21 19:30:20] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:30:22] audio info: closing audio playback device.
+[2024.11.21 19:31:30] api warning: not loaded minimal channel applied.
+[2024.11.21 19:31:30] api warning: not loaded minimal channel applied.
+[2024.11.21 19:32:03] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:32:05] audio info: closing audio playback device.
+[2024.11.21 19:32:08] rpc error: request 1439 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:37:10] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:37:12] audio info: closing audio playback device.
+[2024.11.21 19:40:32] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:40:38] audio info: closing audio playback device.
+[2024.11.21 19:40:39] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:40:41] audio info: closing audio playback device.
+[2024.11.21 19:42:29] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:42:31] audio info: closing audio playback device.
+[2024.11.21 19:43:28] rpc error: request 1495 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:43:29] rpc error: request 1503 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:50:35] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:50:37] audio info: closing audio playback device.
+[2024.11.21 19:50:40] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:50:42] audio info: closing audio playback device.
+[2024.11.21 19:50:48] rpc error: request 1597 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:51:01] rpc error: request 1624 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:51:01] streaming error: error in avformat_open_input (code: -542398533, text: generic error in an external library).
+[2024.11.21 19:52:27] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:52:29] audio info: closing audio playback device.
+[2024.11.21 19:52:43] rpc error: request 1727 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:52:48] rpc error: request 1731 got faiL with code 400, error peer_id_invalid
+[2024.11.21 19:52:53] rpc error: request 1736 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:55:01] rpc error: request 1767 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:55:20] rpc error: request 1800 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:56:31] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:56:33] audio info: closing audio playback device.
+[2024.11.21 19:56:39] rpc error: request 1815 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:56:51] api warning: not loaded minimal channel applied.
+[2024.11.21 19:56:51] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:56:53] audio info: closing audio playback device.
+[2024.11.21 19:56:57] rpc error: request 1837 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:57:21] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:57:23] audio info: closing audio playback device.
+[2024.11.21 19:57:33] api warning: not loaded minimal channel applied.
+[2024.11.21 19:57:35] rpc error: request 1848 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:57:36] rpc error: request 1908 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:58:23] rpc error: request 1924 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:59:04] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 19:59:07] audio info: closing audio playback device.
+[2024.11.21 19:59:35] skipping message, because it is already in blocks!
+[2024.11.21 19:59:47] rpc error: request 1953 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:59:51] rpc error: request 1958 got fail with code 400, error peer_id_invalid
+[2024.11.21 19:59:53] rpc error: request 1970 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:02:03] rpc error: request 2007 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:04:06] rpc error: request 2211 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:04:08] rpc error: request 2220 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:04:10] skipping message, because it is already in blocks!
+[2024.11.21 20:04:12] skipping message, because it is already in blocks!
+[2024.11.21 20:04:13] skipping message, because it is already in blocks!
+[2024.11.21 20:04:16] skipping message, because it is already in blocks!
+[2024.11.21 20:04:20] skipping message, because it is already in blocks!
+[2024.11.21 20:04:25] skipping message, because it is already in blocks!
+[2024.11.21 20:04:31] skipping message, because it is already in blocks!
+[2024.11.21 20:04:32] skipping message, because it is already in blocks!
+[2024.11.21 20:04:33] skipping message, because it is already in blocks!
+[2024.11.21 20:04:34] skipping message, because it is already in blocks!
+[2024.11.21 20:04:37] skipping message, because it is already in blocks!
+[2024.11.21 20:04:38] skipping message, because it is already in blocks!
+[2024.11.21 20:04:38] skipping message, because it is already in blocks!
+[2024.11.21 20:04:40] rpc error: request 2265 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:04:40] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:04:42] audio info: closing audio playback device.
+[2024.11.21 20:04:43] rpc error: request 2290 got fail with code 400, error peer_id_invaliD
+[2024.11.21 20:04:48] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:04:50] audio info: closing audio playback device.
+[2024.11.21 20:04:53] skipping message, because it is already in blocks!
+[2024.11.21 20:04:54] skipping message, because it is already in blocks!
+[2024.11.21 20:04:56] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:04:57] audio info: closing audio playback device.
+[2024.11.21 20:05:02] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:05:04] skipping message, because it is already in blocks!
+[2024.11.21 20:05:04] audio info: closing audio playback device.
+[2024.11.21 20:05:05] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:05:07] audio info: closing audio playback device.
+[2024.11.21 20:05:10] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:05:12] audio info: closing audio playback device.
+[2024.11.21 20:05:42] rpc error: request 2313 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:05:45] rpc error: request 2323 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:05:47] rpc error: request 2365 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:05:47] rpc error: request 2368 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:05:53] rpc error: request 2381 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:05:55] rpc error: request 2386 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:05:55] api warning: not loaded minimal channel applied.
+[2024.11.21 20:07:06] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:07:08] audio info: closing audio playback device.
+[2024.11.21 20:07:36] api warning: not loaded minimal channel applied.
+[2024.11.21 20:07:42] api warning: not loaded minimal channel applied.
+[2024.11.21 20:08:23] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:08:25] audio info: closing audio playback device.
+[2024.11.21 20:08:27] rpc error: request 2538 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:10:58] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:11:00] audio info: closing audio playback device.
+[2024.11.21 20:11:12] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:11:14] audio info: closing audio playback device.
+[2024.11.21 20:11:34] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:11:36] audio info: closing audio playback device.
+[2024.11.21 20:14:39] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:14:41] audio info: closing audio playback device.
+[2024.11.21 20:14:47] api warning: not loaded minimal channel applied.
+[2024.11.21 20:16:05] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:16:07] audio info: closing audio playback device.
+[2024.11.21 20:18:48] audio info: recreating audio device and reattaching the tracks
+[2024.11.21 20:18:50] audio info: closing audio playback device.
+[2024.11.21 20:18:51] api warning: not loaded minimal channel applied.
+[2024.11.21 20:18:52] rpc error: request 2634 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:18:54] rpc error: request 2684 got fail with code 400, error peer_id_invalid
+[2024.11.21 20:18:54] api warning: not loaded minimal channel appliEd.
