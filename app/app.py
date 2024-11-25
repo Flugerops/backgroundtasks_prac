@@ -8,6 +8,8 @@ import asyncio
 from uvicorn import run as run_asgi
 from fastapi import FastAPI, UploadFile, BackgroundTasks, File, status
 
+from utils import Task, TaskManager
+
 
 app = FastAPI()
 FILES_FOLDER = "./files_data"
@@ -23,17 +25,25 @@ async def file_analyse(
     chunk_size = total_length // 10
     processed_length = 0
 
+    task = Task(file_id=file_id, filename=filename)
+    TaskManager.add_task(task)
+
     with open(f"{finished_file_path}/{file_id}_{filename}", "ab") as file:
         for i in range(0, total_length, chunk_size):
             chunk = filecontent[i : i + chunk_size]
+
             if "banned_word".encode() in chunk:
                 file.write("banned".encode())
             else:
                 file.write(chunk.upper())
+
             processed_length += len(chunk)
             progress = (processed_length / total_length) * 100
+            TaskManager.update_progress(file_id, progress)
             print(f"File id: {file_id}, progress: {progress}")
             await asyncio.sleep(1)
+
+    TaskManager.complete_task(file_id)
 
 
 @app.post("/upload", status_code=status.HTTP_202_ACCEPTED)
@@ -50,10 +60,15 @@ async def upload_files(background_tasks: BackgroundTasks, file: UploadFile = Fil
 
 @app.get("/file_status/{file_id}")
 async def get_file_status(file_id):
-    for file in os.listdir(FILES_FOLDER):
-        if file.startswith(file_id):
-            return {"status": "File exists", "filename": file}
-    return {"status": "File not found"}
+    task = TaskManager.get_task(file_id)
+
+    if not task:
+        for file in os.listdir(FILES_FOLDER):
+            if file.startswith(file_id):
+                return {"status": "File completed", "filename": file}
+        return {"status": "File not found"}
+
+    return task.__repr__()
 
 
 if __name__ == "__main__":
