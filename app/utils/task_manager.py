@@ -1,5 +1,5 @@
 class Task:
-    def __init__(self, file_id: int, filename: str) -> None:
+    def __init__(self, file_id: str, filename: str) -> None:
         self.file_id = file_id
         self.filename = filename
         self.progress = 0.0

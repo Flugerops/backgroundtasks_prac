@@ -6,7 +6,7 @@ import uuid
 import asyncio
 
 from uvicorn import run as run_asgi
-from fastapi import FastAPI, UploadFile, BackgroundTasks, File, status
+from fastapi import FastAPI, UploadFile, BackgroundTasks, File, status, HTTPException
 
 from utils import Task, TaskManager
 
@@ -48,6 +48,9 @@ async def file_analyse(
 
 @app.post("/upload", status_code=status.HTTP_202_ACCEPTED)
 async def upload_files(background_tasks: BackgroundTasks, file: UploadFile = File(...)):
+    if not file.filename.endswith((".json", ".txt")):
+        raise HTTPException(status_code=400, detail="Only .txt and .json are supported")
+
     file_id = str(uuid.uuid4())
     background_tasks.add_task(
         file_analyse,
