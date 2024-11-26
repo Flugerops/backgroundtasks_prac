@@ -4,27 +4,27 @@ class Task:
         self.filename = filename
         self.progress = 0.0
 
+    def update_progress(self, progress: float):
+        self.progress = progress
+
     def __repr__(self) -> str:
         return f"file id: {self.file_id}; filename: {self.filename}; progress: {self.progress}"
 
 
 class TaskManager:
-    tasks = dict()
+    def __init__(self):
+        self.tasks = dict()
 
-    @classmethod
-    def add_task(cls, task: Task):
-        cls.tasks[task.file_id] = task
+    def add_task(self, task: Task):
+        self.tasks[task.file_id] = task
 
-    @classmethod
-    def get_task(cls, file_id: str) -> Task:
-        return cls.tasks.get(file_id)
+    def get_task(self, file_id: str) -> Task:
+        return self.tasks.get(file_id)
 
-    @classmethod
-    def update_progress(cls, file_id: str, progress: float):
-        if file_id in cls.tasks:
-            cls.tasks[file_id].progress = progress
+    def update_progress(self, file_id: str, progress: float):
+        if file_id in self.tasks:
+            self.tasks[file_id].update_progress(progress)
 
-    @classmethod
-    def complete_task(cls, file_id: str):
-        if file_id in cls.tasks:
-            return cls.tasks.pop(file_id)
+    def complete_task(self, file_id: str):
+        if file_id in self.tasks:
+            return self.tasks.pop(file_id)

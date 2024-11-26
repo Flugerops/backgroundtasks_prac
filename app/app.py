@@ -4,21 +4,40 @@ from random import shuffle
 from typing import Annotated
 import uuid
 import asyncio
+from contextlib import asynccontextmanager
 
 from uvicorn import run as run_asgi
-from fastapi import FastAPI, UploadFile, BackgroundTasks, File, status, HTTPException
+from fastapi import (
+    FastAPI,
+    UploadFile,
+    BackgroundTasks,
+    File,
+    status,
+    HTTPException,
+    Depends,
+    Request,
+)
 
 from utils import Task, TaskManager
 
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    app.state.task_manager = TaskManager()
+    yield
+
+
+app = FastAPI(lifespan=lifespan)
 FILES_FOLDER = "./files_data"
 
 os.makedirs(FILES_FOLDER, exist_ok=True)
 
 
 async def file_analyse(
-    file_id: str, filename: str, filecontent: Annotated[bytes, File()]
+    file_id: str,
+    filename: str,
+    filecontent: Annotated[bytes, File()],
+    task_manager: TaskManager,
 ):
     finished_file_path = os.path.join(FILES_FOLDER)
     total_length = len(filecontent)
@@ -26,7 +45,7 @@ async def file_analyse(
     processed_length = 0
 
     task = Task(file_id=file_id, filename=filename)
-    TaskManager.add_task(task)
+    task_manager.add_task(task)
 
     with open(f"{finished_file_path}/{file_id}_{filename}", "ab") as file:
         for i in range(0, total_length, chunk_size):
@@ -39,15 +58,17 @@ async def file_analyse(
 
             processed_length += len(chunk)
             progress = (processed_length / total_length) * 100
-            TaskManager.update_progress(file_id, progress)
+            task_manager.update_progress(file_id, progress)
             print(f"File id: {file_id}, progress: {progress}")
             await asyncio.sleep(1)
 
-    TaskManager.complete_task(file_id)
+    task_manager.complete_task(file_id)
 
 
 @app.post("/upload", status_code=status.HTTP_202_ACCEPTED)
-async def upload_files(background_tasks: BackgroundTasks, file: UploadFile = File(...)):
+async def upload_files(
+    background_tasks: BackgroundTasks, request: Request, file: UploadFile = File(...)
+):
     if not file.filename.endswith((".json", ".txt")):
         raise HTTPException(status_code=400, detail="Only .txt and .json are supported")
 
@@ -55,6 +76,7 @@ async def upload_files(background_tasks: BackgroundTasks, file: UploadFile = Fil
     background_tasks.add_task(
         file_analyse,
         file_id=file_id,
+        task_manager=request.app.state.task_manager,
         filename=file.filename,
         filecontent=file.file.read(),
     )
@@ -62,8 +84,9 @@ async def upload_files(background_tasks: BackgroundTasks, file: UploadFile = Fil
 
 
 @app.get("/file_status/{file_id}")
-async def get_file_status(file_id):
-    task = TaskManager.get_task(file_id)
+async def get_file_status(file_id, request: Request):
+    task_manager = request.app.state.task_manager
+    task = task_manager.get_task(file_id)
 
     if not task:
         for file in os.listdir(FILES_FOLDER):
